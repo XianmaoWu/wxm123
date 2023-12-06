@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(245,245,245);
+    overflow:hidden;
+}
+
+.swiper {
+    width: 982px;
+    height: 285px;
+}
+
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: #242424;
+    border-bottom: 1px solid #000;
+    position: relative;
+    z-index: 1000;
+    padding: 0 374px;
+    display: flex;
+    align-items: center;
+}
+
+.logo{
+    width: 176px;
+    height: 69px;
+    background-position: 0 0;
+    background: url('./topbar.png') no-repeat;
+    display: inline-block;
+}
+
+.searchWrapper{
+    display: inline-block;
+    width: 158px;
+    height: 32px;
+    margin-left: 20px;
+    border-radius:32px;
+    background-color: #fff;
+    position: relative;
+}
+
+.searchWrapper>input{
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    margin-left: 31px;
+    margin-top: 9px;
+    border: none;
+}
+
+.searchWrapper>input:focus{
+    border: none;
+    outline: none;
+}
+
+.icon{
+    width: 15px;
+    height: 15px;
+    background: url('./sreach.png') no-repeat;
+    background-size: 100% 100%;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    cursor: pointer;
+}
+
+.content{
+    background-color: #fff;
+    width: 982px;
+    height: 560px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    overflow-y: scroll;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.item{
+    width: 182px;
+    height: 234px;
+    margin: 10px 0;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item>img{
+    width: 140px;
+    height: 140px;
+}
+
+.item>span{
+    font-size: 14px;
+    max-width: 100%;
+    white-space: wrap;
+    margin: 8px 22px 0 22px;
+}
+
